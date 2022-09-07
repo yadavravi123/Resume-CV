@@ -37,6 +37,9 @@ body {
 }
 
 
+.aboutmemain{
+  margin-top: 5em;
+}
 .aboutme1 {
     margin-top: 1em;
     background-color: #003366;
@@ -128,4 +131,16 @@ body {
   .timeline__paragraph {
     line-height: 1.5;
   }
-  
+
+
+  .lbase{
+    background-color:  #999966;
+    border-radius: 10% 10% 0% 0%;
+    margin-bottom: 3em;
+    height: 250px;
+  }
+
+  .social{
+    margin-left: 1em;
+  }
+
