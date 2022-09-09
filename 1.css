@@ -34,6 +34,23 @@ body {
 .intro {
   margin-top: 6em;
   /* margin-bottom: 3em; */
+  
+}
+
+.intro h1 {
+  font-family: 'Cinzel', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Londrina Outline', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.intro h2 {
+  font-family: 'Cinzel', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Londrina Outline', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -41,9 +58,21 @@ body {
   margin-top: 5em;
 }
 
+.aboutmemain {
+  font-family: 'Cinzel', serif;
+  font-family: 'Combo', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Londrina Outline', cursive;
+  font-family: 'Ms Madi', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .aboutme1 {
   margin-top: 1em;
-  background-color: #003366;
+  /* background-color: #003366; */
+  background-color: #660033;
   color: white;
   border-radius: 0% 19% 0% 60%;
 }
@@ -69,7 +98,8 @@ body {
 
 
 body {
-  background: grey;
+  /* background: grey; */
+  background: #003366;
 }
 
 .timeline {
@@ -88,6 +118,7 @@ body {
 
 .timeline__component--bg {
   padding: 1.5em;
+  /* background: #003366; */
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -135,16 +166,43 @@ body {
 }
 
 
+.timeline__paragraph a {
+  color: red;
+  background: transparent;
+}
+
+
+
 .lbase {
-  background-color: #999966;
+  /* background-color: #999966; */
+  background-color: #98c1d9;
   border-radius: 10% 10% 0% 0%;
   margin-bottom: 3em;
   height: 250px;
+  font-family: 'Cinzel', serif;
+font-family: 'Combo', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Ms Madi', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .social {
   margin-left: 1em;
 }
+
+
+
+.lbaseco a  :hover{
+  color: #FFCC00;
+  
+}
+
+
+
 
 @media (max-width: 380px) {
   .aboutme1 {
@@ -166,32 +224,32 @@ body {
   }
 }
 
-@media (min-width: 614px ) and ( max-width: 992px ) {
-       .intro{
-        margin-top: 0em;
-        margin-left: 5em;
-       }
+@media (min-width: 614px) and (max-width: 992px) {
+  .intro {
+    margin-top: 0em;
+    margin-left: 5em;
+  }
 
-       #pic1{
-        max-width: 60%;
-        max-height: 60%;
-        margin-left: 10em;
-       }
+  #pic1 {
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: 10em;
+  }
 }
 
-@media (min-width: 500px) and (max-width: 614px){
-  .intro{
+@media (min-width: 500px) and (max-width: 614px) {
+  .intro {
     margin-top: 0em;
-   }
+  }
 
-   #pic1{
+  #pic1 {
     max-width: 60%;
     max-height: 60%;
     /* margin-left: 10em; */
-   }
+  }
 }
 
-@media (min-width: 555px) and (max-width: 654px){
+@media (min-width: 555px) and (max-width: 654px) {
   .aboutme1 {
     border-radius: 0%;
     margin-top: 0em;
@@ -206,7 +264,7 @@ body {
 
   .aboutme3 {
     border-radius: 0%;
-    margin-top: 0em; 
+    margin-top: 0em;
     /* word-wrap: break-word; */
     overflow-wrap: break-word;
     padding-top: 0em;
@@ -215,11 +273,17 @@ body {
   }
 }
 
-@media (min-width: 374px) and (max-width: 554px){
+
+@media (min-width: 374px) and (max-width: 554px) {
   .aboutme1 {
     border-radius: 0%;
     margin-top: 2.5em;
+    padding-right: 3em;
     /* width: 20em; */
+  }
+
+  .aboutme1 h1{
+    padding-left: 1.5em;
   }
 
   .aboutme2 {
@@ -231,7 +295,16 @@ body {
   .aboutme3 {
     border-radius: 0%;
     margin-top: 0em;
-    padding-top: 0em;
-    
+    padding-top: 1em;
+
   }
+
+  .lbase{
+    border-radius:  0%;
+  }
+
+  /* .aboutmemain{
+    margin-top: 1em;
+  } */
 }
+
